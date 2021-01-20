@@ -1,0 +1,14 @@
+{
+  "globals": {
+    "ts-jest": {
+      "verbose": true
+    }
+  },
+  "coverageReporters": ["text"],
+  "testEnvironment": "node",
+  "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.[jt]sx?$",
+  "transform": {
+    "^.+\\.(t|j)s?$": "ts-jest"
+  },
+  "roots": ["<rootDir>/tests/"]
+}
